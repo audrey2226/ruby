@@ -5,7 +5,8 @@ puts journalists.size
   
 puts journalists.grep(/[0-9]/).count
 
-puts journalists.grep(/(aude)/).count
+
+puts journalists.grep(/[Aa]ude/).count
 
 puts journalists.grep(/^@(\p{Upper})/).count
 
